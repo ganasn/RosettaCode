@@ -18,27 +18,31 @@ def remove_lines(file_name, start_line, number_of_lines):
         in_handler = open(file_name,'r')
     except:
         print 'Unable to open file. Aborting program!'
-        exit
+        return 0
     
     if start_line < 0 or number_of_lines < 1:
         print 'Can\'t remove specified number of lines. Aborting program!'
-        exit
+        return 0
         
     line_count = 0
-    for lines in in_handler.read():
+    for lines in in_handler:
         line_count += 1
+    
+#    print 'total number of lines in input file %d\n' % line_count
     
     if line_count < (start_line + number_of_lines - 1):
         print 'Fewer number of lines in file than that expected to remove. Aborting program!'
-        exit
+        return 0
     
     in_handler.seek(0)
     
     line_count = 0 
     out_handler = open('temp.txt', 'w')
-    for lines in in_handler.read():
+    for lines in in_handler:
         line_count += 1
+#        print 'On line %d with data %s' % (line_count, lines)
         if not(start_line < line_count and line_count < (start_line + number_of_lines - 1)):
+#            print 'Line %d will be written to output file' % line_count
             out_handler.write(lines)
     out_handler.close()        
     print 'Lines removed and wrote into temp.txt. Quitting program!'
