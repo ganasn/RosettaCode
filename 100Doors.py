@@ -14,3 +14,27 @@
 #Opening only those doors is an   optimization   that may also be expressed; however, as should be obvious, this defeats the intent of comparing implementations across programming languages.
 
 #Create a dict with data:
+
+import math
+
+doors = dict()
+count = 0
+
+try:
+    number_of_doors = int(raw_input('Enter number of doors>'))
+except:
+    print 'Enter an integer'
+    quit() 
+
+for count in range (1,number_of_doors+1):
+    doors[count]  = False
+    
+#print doors
+
+j = i  = 0
+i = int(math.sqrt(number_of_doors))
+
+for j in range(1, i+1):
+    doors[j*j] = True
+
+print doors
