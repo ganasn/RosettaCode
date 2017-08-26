@@ -10,3 +10,7 @@ Planned: Fix Remove Lines From a File & Complete shell of Finding Perfect Square
 Actual-1: Fixed Remove Lines From a File. Got logic (on paper) for 100 Days
 Actual-2: Completed 100 Days
 Actual-3: Started 15 Puzzle implementation
+
+Day-3: Aug 26, 2017
+Planned: Complete 15 Puzzle implementation
+Actual: Yet to complete swap logic
