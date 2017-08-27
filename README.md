@@ -14,3 +14,7 @@ Actual-3: Started 15 Puzzle implementation
 Day-3: Aug 26, 2017
 Planned: Complete 15 Puzzle implementation
 Actual: Yet to complete swap logic
+
+Day-4: Aug 27, 2017
+Planned: Complete 15 Puzzle implementation
+Actual: Completed 15 Puzzle implementation

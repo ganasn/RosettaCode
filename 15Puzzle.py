@@ -6,17 +6,35 @@ import random
 
 #Function to identify where 0 is located within the matrix - returns position of 0
 def check_zero(array):
-    pass
-
+    for i in range(0,4):
+        for j in range(0,4):
+            if array[i][j] == 0:
+                return i, j
+            else:
+                continue
+    
 #Function to identify empty spot and returns position of that empty spot
 def get_location(array, number):
-    pass
+    for i in range(0,4):
+        for j in range(0,4):
+            if array[i][j] == number:
+                return i, j
+            else:
+                continue
 
 #Function to swap number with 0
 def swap(array, number):
-    get_location(array, number)
-    check_zero(array)
-#    If check_zero & get_location return positions in proximity, swap()
+    z_r, z_c = check_zero(array)
+    n_r, n_c = get_location(array, number)    
+#    print '0 is at', z_r, z_c
+#    print number, ' is at', n_r, n_c
+#If check_zero & get_location return positions in proximity, swap()
+    if ((n_r == z_r and (z_c - 1 == n_c or z_c + 1 == n_c)) or (z_c == n_c and (n_r - 1 == z_r or n_r + 1 == z_r))):
+#        print 'potential swapping'
+        array[n_r][n_c] = 0
+        array[z_r][z_c] = number
+    else:
+        print 'can\'t move %d' % number
     pass
 
 def check_complete(b):
