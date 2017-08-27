@@ -18,3 +18,6 @@ Actual: Yet to complete swap logic
 Day-4: Aug 27, 2017
 Planned: Complete 15 Puzzle implementation
 Actual: Completed 15 Puzzle implementation
+Actual-2: Passed on 2048 game because I couldn't follow the logic/rules.
+Planned-2: Complete A+B (taking it easy for a Sunday)
+Actual-3: 
