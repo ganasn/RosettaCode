@@ -20,4 +20,8 @@ Planned: Complete 15 Puzzle implementation
 Actual: Completed 15 Puzzle implementation
 Actual-2: Passed on 2048 game because I couldn't follow the logic/rules.
 Planned-2: Complete A+B (taking it easy for a Sunday)
-Actual-3: 
+Actual-3: Completed A+B
+
+Day-5: Aug 28, 2017
+Planned: Complete Loops & few Sorting algorithms
+Actual-1: Completed Insertion Sort
