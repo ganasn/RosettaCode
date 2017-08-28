@@ -24,4 +24,4 @@ Actual-3: Completed A+B
 
 Day-5: Aug 28, 2017
 Planned: Complete Loops & few Sorting algorithms
-Actual-1: Completed Sorting/Insertion Sort, Loop/Break
+Actual-1: Completed Sorting/Insertion Sort, Loops/Break, Loops/Continue
