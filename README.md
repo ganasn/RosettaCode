@@ -28,4 +28,4 @@ Actual-1: Completed Sorting/Insertion Sort, Loops/Break, Loops/Continue
 
 Day-6: Aug 29, 2017
 Planned: Research materials for intermediate/advanced Python programming. Complete 99-bottles & FizzBuzz
-Actual: Completed FizzBuzz
+Actual: Completed FizzBuzz, GeneralFizzBuzz for 3 numbers (simplified version as stated in task)
