@@ -25,3 +25,7 @@ Actual-3: Completed A+B
 Day-5: Aug 28, 2017
 Planned: Complete Loops & few Sorting algorithms
 Actual-1: Completed Sorting/Insertion Sort, Loops/Break, Loops/Continue
+
+Day-6: Aug 29, 2017
+Planned: Research materials for intermediate/advanced Python programming. Complete 99-bottles & FizzBuzz
+Actual: Completed FizzBuzz
