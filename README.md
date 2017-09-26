@@ -29,3 +29,10 @@ Actual-1: Completed Sorting/Insertion Sort, Loops/Break, Loops/Continue
 Day-6: Aug 29, 2017
 Planned: Research materials for intermediate/advanced Python programming. Complete 99-bottles & FizzBuzz
 Actual: Completed FizzBuzz, GeneralFizzBuzz for 3 numbers (simplified version as stated in task - DOES NOT USE ANY NEW CONCEPTS,) & 99 Bottles
+
+Day-7: Sep 25, 2017
+Actual: Merge Sort code in place, but it needs fixing. Progressed in Chapter 2 of CLRS
+
+Day-8: Sep 26, 2017
+Actual-1: Completed Chapter 2 of CLRS & Bubble Sort
+Troubleshooting of Merge Sort from day-7 - some progress made - sort works, but merge has issues esp. around final loops of merge
