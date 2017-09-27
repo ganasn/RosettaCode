@@ -34,5 +34,8 @@ Day-7: Sep 25, 2017
 Actual: Merge Sort code in place, but it needs fixing. Progressed in Chapter 2 of CLRS
 
 Day-8: Sep 26, 2017
-Actual-1: Completed Chapter 2 of CLRS & Bubble Sort
+Actual: Completed Chapter 2 of CLRS & Bubble Sort
 Troubleshooting of Merge Sort from day-7 - some progress made - sort works, but merge has issues esp. around final loops of merge
+
+Day-9: Sep 27, 2017
+Actual: Completed Chapter 3 of CLRS. Need to pick-up troubleshooting merge sort while on the way/at SFO today
